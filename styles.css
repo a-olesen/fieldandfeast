@@ -1,0 +1,155 @@
+/* CSS BY ASHLEY OLESEN */
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* CSS REST */
+
+
+
+header, footer{
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+}
+
+h1{
+    font-size: 7em;
+    margin: 0;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2.5em;
+}
+
+h4{
+    font-size: 1.15em;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+header p{
+    font-style: italic;
+}
+
+nav{
+    background-color: var(--champagne-gold);
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;;
+}
+
+nav li{
+  display: flex;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--midnight-blue);
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2{
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+section{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 6px solid var(--champagne-gold);
+}
+
+#section_welcome{
+    color: var(--dark-charcoal);
+}
+
+#section_offerings h2{
+    margin-top: 40px;
+}
+
+#section_offerings div{
+  align-items: center;
+  background-color: var(--olive-green);
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#section_offerings{
+    color: var(--soft-white);
+}
+
+#section_offerings h2{
+    color: var(--dark-charcoal);
+}
+
+#section_offerings div h3, #section_offerings div p, #section_offerings div ul  {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#section_offerings div p{
+    padding-bottom: 20px;
+}
+
+
+/* ROOT VARIABLES */
+:root{
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+body{
+    font-family: 'Playfair Display';
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-width:320px;
+    background-color: var(--soft-white);
+}
+/* MEDIA QUERY (medium) */
+/* MEDIA QUERY (large) */
+/* MEDIA QUERY (xl) */
+
+
+
+
+
+
+/*
+Styles
+Imported fonts
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+Colors
+midnight-blue: #1F2A44;
+olive-green: #76885B;
+champagne-gold: #E5C185;
+linen: #F8F4EC;
+dark-charcoal: #2B2B2B;
+soft-white: #FAF9F6;
+
+Font
+Playfair Display
+*/
