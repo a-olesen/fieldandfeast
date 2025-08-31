@@ -4,8 +4,6 @@
 
 /* CSS REST */
 
-
-
 header, footer{
     background-color: var(--midnight-blue);
     color: var(--soft-white);
@@ -84,7 +82,7 @@ section{
     margin-top: 40px;
 }
 
-#section_offerings div{
+#offerings_container div{
   align-items: center;
   background-color: var(--olive-green);
   margin: 20px;
@@ -139,7 +137,6 @@ section{
 #section_gallery p{
     display: block;
     margin: 0 auto;
-    background-color: var(--olive-green);
     text-align: center;
     padding: 20px 30px;
     border-radius: 20px;
@@ -197,10 +194,48 @@ body{
     background-color: var(--soft-white);
 }
 /* MEDIA QUERY (medium) */
+
+@media screen and (min-width: 600px) {
+    #offerings_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: auto auto;
+        gap: 10px;
+    }
+
+    #offerings_box3{
+        grid-column: 1 / -1;
+    }
+
+    #images{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+    }
+}
+
+
+
 /* MEDIA QUERY (large) */
+@media screen and (min-width: 900px) {
+#images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Creates two equal-width columns */
+        grid-template-rows: auto auto; /* Two rows with automatic height */
+        gap: 10px; /* Adds space between grid items */
+    }
+}
 /* MEDIA QUERY (xl) */
 
-
+@media screen and (min-width: 1200px) {
+    #images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Creates two equal-width columns */
+        grid-template-rows: auto; /* Two rows with automatic height */
+        gap: 10px;
+    }
+}
 
 
 
